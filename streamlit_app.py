@@ -61,3 +61,6 @@ st.download_button('Download this scenario with assumptions (CSV)',buf.getvalue(
 st.divider()
 st.markdown(f'**Source and authorship.** Adapted from the illustrative valuation example in the [SAF-H1-2026 methodology]({METHOD}), published 12 September 2026. This interactive companion was prepared 2 November 2026; it adds no observed transactions or market forecasts.')
 st.write('By Matt Lenzie for Student Accommodation Finance, with Construction Capital affiliation disclosed. This is commercially affiliated educational research. AI assisted implementation. Source report rights remain reserved. Inputs are processed by the hosted app to calculate the scenario; this code does not save them or request names, addresses or contact details.')
+
+st.subheader('Keep scenarios and observed evidence separate')
+st.markdown('For the report, data and presentation reading routes, use the [H1 research guide](https://sites.google.com/view/saf-h1-2026-research-guide/home). The [GitBook field reference](https://construction-capital.gitbook.io/student-accommodation-finance-data-reference/field-reference-and-exclusions) explains which observed measures can be compared. Neither resource turns this illustrative scenario into an observed loan or lender offer. These are companions to the same study, with common authorship and source evidence.')
